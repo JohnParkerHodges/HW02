@@ -4,6 +4,24 @@ body {
     max-height: 100vh;
 }
 
+footer {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    height: 10vh;
+    width: 100%;
+}
+
+.topFooter {
+    background-color: teal;
+    position: fixed;
+    width: 100%;
+    height: 2vh;
+    bottom: 80px;
+}
+
 .Name {
     background-color: teal;
     color: white;
@@ -26,4 +44,9 @@ body {
 
 .aboutMeImg {
     max-width: 400px;
+    max-height: 400px;
+}
+
+.header {
+    background-color: white;
 }
