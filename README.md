@@ -1,3 +1,3 @@
 # JohnParkerHodges.github.io-HW02
-BootStrap Portfolio
+Redux Portfolio using BootStrap. Using BootStrap I was able to make this webiste responsive.
 
