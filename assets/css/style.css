@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/herringbone.png);
+    background-repeat: repeat;
+    max-height: 100vh;
+}
+
+.Name {
+    background-color: teal;
+    color: white;
+}
+
+.outerCont {
+    background-color: white;
+}
+
+.innerCont {
+    background-color: white;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.AboutMe {
+    color: teal;
+    margin-left: 12.5%;
+}
+
+.aboutMeImg {
+    max-width: 400px;
+}
