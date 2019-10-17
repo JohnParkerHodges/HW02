@@ -13,50 +13,30 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">HAGICORE</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand " href="#">John Parker Hodges</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="header">
-            <div class="row">
-                <div class="col-5">
-                    <h1 class="Name">John Parker Hodges</h1>
-                </div>
-                <div class="col-6"></div>
-                <div class="col-1">
-                    <ul class="NavBtn2">
-                        <li>
-                            <a href="./index.html"></a> About</li>
-
-                        <li></li>
-
-                        <li>
-                            <a href="./portfolio.html"></a> Portfolio</li>
-
-                        <li></li>
-
-                        <li>
-                            <a href="./contact.html"></a> Contact</li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+
+    <br>
+    <div class="container">
         <br>
         <div class="outerCont">
             <div class="row">
@@ -67,23 +47,26 @@
             <hr>
             <div class="innerCont">
                 <div class="row">
+
                     <div class="col-3">
-                        <h2>Name</h2>
-                        <input id="NameBox" type="text" placeholder="John Parker Hodges">
+                        <h3>Name</h3>
+                        <input type="NameBox" class="form-control" id="exampleFormControlInput1" placeholder="John Parker Hodges">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-3">
-                        <h2>Email</h2>
-                        <input id="EmailBox" type="text" placeholder="phodgesfl@gmail.com">
+                        <h3>Email</h3>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="phodgesfl@gmail.com">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
-                        <h2>Message</h2>
-                        <input id="MessageBox" type="text" placeholder="Message">
+                    <div class="col-12">
+                        <h3>Message</h3>
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                 </div>
+
 
 
 
