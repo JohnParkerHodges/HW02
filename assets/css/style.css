@@ -14,6 +14,10 @@ footer {
     width: 100%;
 }
 
+ul {
+    color: black;
+}
+
 .topFooter {
     background-color: teal;
     position: fixed;
@@ -149,3 +153,5 @@ footer {
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.NavBtn2 {}
