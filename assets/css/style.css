@@ -49,4 +49,8 @@ footer {
 
 .header {
     background-color: white;
+    position: relative;
+    top: 0px;
 }
+
+.container {}
